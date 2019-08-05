@@ -28,7 +28,11 @@ h1 {
   border-radius: 15px;
   display: table;
   margin: 30px auto;
-} 
+}
+
+h2 {
+  text-align: center;
+}
 
 header .main-image {
   margin-top: 50px;
@@ -43,6 +47,27 @@ header .main-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card:hover {
+  border-color: #f3826f;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
 .nav {
   justify-content: space-around;
   font-weight: 700;
@@ -55,10 +80,11 @@ header .main-image:hover {
   color: #50b6bb;
 }
 
-p {
-  color: black;
-}
 
 .section-title {
  text-transform: capitalize;
+}
+
+.skills {
+  color: black;
 }
