@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -15,17 +15,36 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #f3826f;
 }
 a:hover {
-  color: #6633ff;
+  color: #50b6bb;
 }
 
 /* Section Styles */
+.butn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f7f5ff;
+  font-size: 20px;
+  background: #f3826f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #50b6bb;
+  color: #f7f5f0;
+  text-decoration: none;
+}
+
+
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #f7f5f0;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -39,11 +58,8 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: none;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +68,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #50b6bb;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('placeimg_1000_989_tech.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,19 +90,19 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #f3826f;
+  color: #fff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #fff;
+  color: #f3826f;
 }
 .card {
   margin: 30px;
@@ -96,10 +112,9 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f3826f;
 }
 
 ul.skills {
@@ -127,7 +142,9 @@ footer {
 }
 
 footer .copyright {
+  color: #f3826f;
   top: -8px;
+  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -148,17 +165,23 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
+  opacity: .5;
+  transition: all .25s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(img/twitter.svg);
+ color: #f3826f;
+ margin: 10px;
+ 
 }
+
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(img/linkedin.svg);
+  margin: 10px;
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(img/github.svg);
+  margin: 10px;
 }
 a.social:hover {
   opacity: 1;
@@ -171,26 +194,28 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
 
   header {
-    min-height: 470px;
+    min-height: 450px;
   }
 
   .nav {
     max-width: 1200px;
-    padding: 0 30px;
   }
 
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: #f3826f;
+  }
 
   main {
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   main p {
@@ -203,5 +228,9 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+h2 {
+  color: #f3826f;
 }
 
