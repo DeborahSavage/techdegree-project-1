@@ -90,17 +90,17 @@ header .main-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
-
 .card:hover {
   border-color: #f3826f;
 }
 
 .flex {
-  display: flex;
-  max-width: 1200px;
-  justify-content: space-around;
-  margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
 }
+
 
 .nav {
   justify-content: space-around;
@@ -116,6 +116,10 @@ header .main-image:hover {
 
 .section-title {
   text-transform: capitalize;
+}
+
+.skills {
+  color: black;
 }
 
 .skills {
