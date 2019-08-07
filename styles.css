@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -73,7 +73,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('placeimg_1000_989_tech.jpg') no-repeat top center ;
+  background: url('img/placeimg_1000_989_tech.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   border-radius: 15px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #fff;
   color: #f3826f;
@@ -172,7 +172,7 @@ a.twitter {
   background-image: url(img/twitter.svg);
  color: #f3826f;
  margin: 10px;
- 
+
 }
 
 a.linkedin {
@@ -192,7 +192,7 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: flex;
       max-width: 1200px;
@@ -233,4 +233,3 @@ a.social:hover {
 h2 {
   color: #f3826f;
 }
-
