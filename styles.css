@@ -49,6 +49,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+
 }
 
 .nav {
@@ -58,6 +59,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+
 }
 
 .nav .name {
@@ -123,6 +125,7 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  z-index: 1;
 }
 
 .card:hover {
