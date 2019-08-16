@@ -75,10 +75,12 @@ header .main-image {
   border-radius: 50%;
   border: 3px solid #f3826f;
   transition: all .5s;
+  
 }
 
 header .main-image:hover {
   transform: scale(1.2) rotate(360deg);
+
 }
 
 .card {
@@ -89,6 +91,7 @@ header .main-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+
 }
 .card:hover {
   border-color: #f3826f;
