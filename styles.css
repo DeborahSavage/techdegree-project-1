@@ -125,7 +125,7 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  z-index: 1;
+
 }
 
 .card:hover {
